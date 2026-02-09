@@ -12,3 +12,10 @@ D:\Папка\C-Language-Basics_GeekBrains\HomeWork3\HWapp04\obj\Debug\HWapp04.c
 D:\Папка\C-Language-Basics_GeekBrains\HomeWork3\HWapp04\obj\Debug\HWapp04.csproj.CoreCompileInputs.cache
 D:\Папка\C-Language-Basics_GeekBrains\HomeWork3\HWapp04\obj\Debug\HWapp04.exe
 D:\Папка\C-Language-Basics_GeekBrains\HomeWork3\HWapp04\obj\Debug\HWapp04.pdb
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork3\HWapp04\bin\Debug\HWapp04.exe.config
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork3\HWapp04\bin\Debug\HWapp04.exe
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork3\HWapp04\bin\Debug\HWapp04.pdb
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork3\HWapp04\obj\Debug\HWapp04.csproj.AssemblyReference.cache
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork3\HWapp04\obj\Debug\HWapp04.csproj.CoreCompileInputs.cache
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork3\HWapp04\obj\Debug\HWapp04.exe
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork3\HWapp04\obj\Debug\HWapp04.pdb

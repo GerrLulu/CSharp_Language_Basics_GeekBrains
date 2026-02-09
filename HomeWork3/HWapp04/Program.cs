@@ -25,7 +25,7 @@ namespace HWapp04
         }
         public double Decimal
         {
-            get { return (_numerator / _denominator); }
+            get { return ((double)_numerator / (double)_denominator); }
         }
 
 
