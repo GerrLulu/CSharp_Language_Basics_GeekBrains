@@ -24,6 +24,43 @@ namespace HWapp01
     static class Message
     {
         /// <summary>
+        /// Mетоды для очистки текста от лишних символов
+        /// </summary>
+        /// <param name="letter">Заданное сообщение</param>
+        /// <returns></returns>
+        private static string[] CliningLetter(string letter)
+        {
+            letter = Regex.Replace(letter, "[-.?!)(,:;]", "");
+            string[] ltr = Regex.Split(letter, "[ ]");
+            int count = 0;
+            bool[] indexToDelet = new bool[ltr.Length];
+
+            for (int i = 0; i < ltr.Length; i++)
+            {
+                if (ltr[i] == "")
+                {
+                    indexToDelet[i] = true;
+                    count++;
+                }
+                else
+                    indexToDelet[i] = false;
+            }
+
+            string[] newLtr = new string[ltr.Length - count];
+
+            for (int i = 0, j = 0; i < ltr.Length; i++)
+            {
+                if (indexToDelet[i] == false)
+                {
+                    newLtr[j] = ltr[i];
+                    j++;
+                }
+            }
+            
+            return ltr;
+        }
+
+        /// <summary>
         /// Mетоды для вывода только тех слов сообщения, которые содержат не более n букв.
         /// </summary>
         /// <param name="letter">Заданное сообщение</param>
@@ -31,8 +68,7 @@ namespace HWapp01
         /// <returns></returns>
         public static string DeletWordNum(string letter, int numWrd)
         {
-            letter = Regex.Replace(letter, "[-.?!)(,:;]", "");
-            string[] ltr = Regex.Split(letter, "[ ]");
+            string[] ltr = CliningLetter(letter);
             string letterBack = "";
 
             for (int i = 0; i < ltr.Length; i++)
@@ -52,8 +88,7 @@ namespace HWapp01
         /// <returns></returns>
         public static string DeletWordSymbol(string letter, char symb)
         {
-            letter = Regex.Replace(letter, "[-.?!)(,:;]", "");
-            string[] ltr = Regex.Split(letter, "[ ]");
+            string[] ltr = CliningLetter(letter);
             string letterBack = "";
 
             for (int i = 0; i < ltr.Length; i++)
@@ -72,8 +107,7 @@ namespace HWapp01
         /// <returns></returns>
         public static string LongWord(string letter)
         {
-            letter = Regex.Replace(letter, "[-.?!)(,:;]", "");
-            string[] ltr = Regex.Split(letter, "[ ]");
+            string[] ltr = CliningLetter(letter);
             string max = "";
 
             for (int i = 0; i < ltr.Length; i++)
@@ -92,8 +126,7 @@ namespace HWapp01
         /// <returns></returns>
         public static string LongWords(string letter)
         {
-            letter = Regex.Replace(letter, "[-.?!)(,:;]", "");
-            string[] ltr = Regex.Split(letter, "[ ]");
+            string[] ltr = CliningLetter(letter);
             StringBuilder res = new StringBuilder();
             string result = "";
             int max = LongWord(letter).Length;
@@ -206,6 +239,15 @@ namespace HWapp01
             }
         }
 
+        private static int GetNumeral()
+        {
+            {
+                while (true)
+                    if (!int.TryParse(Console.ReadLine(), out int x))
+                        Console.Write("Неверный ввод (требуется числовое значение).\nПожалуйста, повторите ввод: ");
+                    else return x;
+            }
+        }
 
         static void Main(string[] args)
         {
@@ -260,8 +302,8 @@ namespace HWapp01
             Console.Write("Введите текст сообщение: ");
             string letter = Console.ReadLine();
 
-            Console.Write("Введите кол-во букв: ");
-            int numWrd = int.Parse(Console.ReadLine());
+            Console.Write("Введите кол-во букв, которые необходимо для вывода: ");
+            int numWrd = GetNumeral();
 
             Console.WriteLine($"Вывод слов сообщения, которые содержат не более {numWrd} букв: " +
                 $"{Message.DeletWordNum(letter, numWrd)}");
@@ -325,21 +367,22 @@ namespace HWapp01
             Console.ReadLine();
             Console.Clear();
 
-            int n = 3;//кол-во выводимых учеников с одинаковыми средними балами
+            int n = 3; //кол-во выводимых учеников с одинаковыми средними балами
             
             Console.Write("Введите название файла со списком: ");
             string fileName = Console.ReadLine();
 
             Info[] info = new Info[90]; //100 - 10 = 90;
-            StreamReader stream = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + fileName);
-            int N = int.Parse(stream.ReadLine());
+
+            StreamReader streamReader = new StreamReader("..\\..\\" + fileName);
+            int N = int.Parse(streamReader.ReadLine());
             for (int i = 0; i < N; i++)
             {
-                string[] s = stream.ReadLine().Split(' ');
+                string[] s = streamReader.ReadLine().Split(' ');
                 info[i].FIO = s[0] + " " + s[1];
                 info[i].mark = (double.Parse(s[2]) + double.Parse(s[3]) + double.Parse(s[4])) / 3;
             }
-            stream.Close();
+            streamReader.Close();
 
             Sort(ref info);
 

@@ -25,6 +25,7 @@ namespace HW_PuzzleGame
             RandomNumber();
             buttonStartGame.Visible = false;
             lableInfoPlay.Visible = false;
+            labelTask.Visible = false;
             buttonEnter.Visible = true;
             textBoxAnswer.Visible = true;
             lableInfoGame.Visible = true;

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Artyom\\Desktop\\C-Language-Basics_GeekBrains\\HomeWork5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0477739D-732C-4671-881B-353F561B4100}|HWapp01\\HWapp01.csproj|c:\\users\\artyom\\desktop\\c-language-basics_geekbrains\\homework5\\hwapp01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0477739D-732C-4671-881B-353F561B4100}|HWapp01\\HWapp01.csproj|solutionrelative:hwapp01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0477739D-732C-4671-881B-353F561B4100}|HWapp01\\HWapp01.csproj|C:\\Users\\Artyom\\Desktop\\C-Language-Basics_GeekBrains\\HomeWork5\\hwapp01\\classsort.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0477739D-732C-4671-881B-353F561B4100}|HWapp01\\HWapp01.csproj|solutionrelative:hwapp01\\classsort.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassSort.txt",
+              "DocumentMoniker": "C:\\Users\\Artyom\\Desktop\\C-Language-Basics_GeekBrains\\HomeWork5\\HWapp01\\ClassSort.txt",
+              "RelativeDocumentMoniker": "HWapp01\\ClassSort.txt",
+              "ToolTip": "C:\\Users\\Artyom\\Desktop\\C-Language-Basics_GeekBrains\\HomeWork5\\HWapp01\\ClassSort.txt",
+              "RelativeToolTip": "HWapp01\\ClassSort.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-02-12T04:34:13.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Artyom\\Desktop\\C-Language-Basics_GeekBrains\\HomeWork5\\HWapp01\\Program.cs",
+              "RelativeDocumentMoniker": "HWapp01\\Program.cs",
+              "ToolTip": "C:\\Users\\Artyom\\Desktop\\C-Language-Basics_GeekBrains\\HomeWork5\\HWapp01\\Program.cs",
+              "RelativeToolTip": "HWapp01\\Program.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAhwDEBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T03:38:06.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

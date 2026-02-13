@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11505.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2BorNot2B", "2BorNot2B\2BorNot2B.csproj", "{7830A8B8-EE0D-40B3-8CC6-7800A4C6E732}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueFalseEditor", "Lesson8\TrueFalseEditor\TrueFalseEditor.csproj", "{F53E9544-25F7-406F-B180-AEDCD66ED442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertiesDateTime", "PropertiesDateTime\PropertiesDateTime.csproj", "{17BC703F-8B8E-4DA7-9329-24AD403A030B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students", "Students\Students.csproj", "{03A639BB-3BA8-4316-BB7C-340663B58CBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{F53E9544-25F7-406F-B180-AEDCD66ED442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F53E9544-25F7-406F-B180-AEDCD66ED442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F53E9544-25F7-406F-B180-AEDCD66ED442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17BC703F-8B8E-4DA7-9329-24AD403A030B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BC703F-8B8E-4DA7-9329-24AD403A030B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BC703F-8B8E-4DA7-9329-24AD403A030B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BC703F-8B8E-4DA7-9329-24AD403A030B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A639BB-3BA8-4316-BB7C-340663B58CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A639BB-3BA8-4316-BB7C-340663B58CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A639BB-3BA8-4316-BB7C-340663B58CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A639BB-3BA8-4316-BB7C-340663B58CBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -69,6 +69,7 @@ namespace WF_Udvoitel
         {
             buttonPlay.Visible = false;
             lablePlayInfo.Visible = false;
+            labelTask.Visible = false;
             buttonPlusOne.Visible = true;
             buttonMultiplyTwo.Visible = true;
             buttonReset.Visible = true;

@@ -1,0 +1,15 @@
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\bin\Debug\net10.0\PropertiesDateTime.exe
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\bin\Debug\net10.0\PropertiesDateTime.deps.json
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\bin\Debug\net10.0\PropertiesDateTime.runtimeconfig.json
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\bin\Debug\net10.0\PropertiesDateTime.dll
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\bin\Debug\net10.0\PropertiesDateTime.pdb
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\obj\Debug\net10.0\PropertiesDateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\obj\Debug\net10.0\PropertiesDateTime.AssemblyInfoInputs.cache
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\obj\Debug\net10.0\PropertiesDateTime.AssemblyInfo.cs
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\obj\Debug\net10.0\PropertiesDateTime.csproj.CoreCompileInputs.cache
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\obj\Debug\net10.0\PropertiesDateTime.sourcelink.json
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\obj\Debug\net10.0\PropertiesDateTime.dll
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\obj\Debug\net10.0\refint\PropertiesDateTime.dll
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\obj\Debug\net10.0\PropertiesDateTime.pdb
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\obj\Debug\net10.0\PropertiesDateTime.genruntimeconfig.cache
+C:\Users\Artyom\Desktop\C-Language-Basics_GeekBrains\HomeWork8\PropertiesDateTime\obj\Debug\net10.0\ref\PropertiesDateTime.dll

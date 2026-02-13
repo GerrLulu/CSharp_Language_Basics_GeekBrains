@@ -94,18 +94,18 @@ namespace HWapp01
         /// <summary>
         /// Метод для сравнения экземпляров
         /// </summary>
-        /// <param name="st1"></param>
-        /// <param name="st2"></param>
+        /// <param name="student1"></param>
+        /// <param name="student2"></param>
         /// <returns></returns>
-        static int SortAgeCourse(Student st1, Student st2)
+        static int SortAgeCourse(Student student1, Student student2)
         {
-            if (st1.age > st2.age)
+            if (student1.age > student2.age)
                 return 1;
-            if (st1.age < st2.age)
+            if (student1.age < student2.age)
                 return -1;
-            if (st1.course > st2.course)
+            if (student1.course > student2.course)
                 return 1;
-            if (st1.course < st2.course)
+            if (student1.course < student2.course)
                 return -1;
             return 0;
         }
@@ -231,6 +231,18 @@ namespace HWapp01
 
             Console.Write("Введите значение b: ");
             double b = double.Parse(Console.ReadLine());
+
+            do
+            {
+                Console.WriteLine(@"Значение b должно быть больше или равно значению x.");
+
+                Console.Write("Введите значение x: ");
+                x = double.Parse(Console.ReadLine());
+
+                Console.Write("Введите значение b: ");
+                b = double.Parse(Console.ReadLine());
+            }
+            while (x > b);
 
             Console.WriteLine("Таблица функции a*x^2: ");
             Table(MyFunc, a, x, b);

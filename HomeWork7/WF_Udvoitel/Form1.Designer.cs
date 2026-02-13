@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.buttonPlusOne = new System.Windows.Forms.Button();
             this.buttonMultiplyTwo = new System.Windows.Forms.Button();
             this.buttonReset = new System.Windows.Forms.Button();
@@ -40,6 +41,7 @@
             this.labelInfoRandomNumber = new System.Windows.Forms.Label();
             this.labelRandomNumber = new System.Windows.Forms.Label();
             this.buttonCancel = new System.Windows.Forms.Button();
+            this.labelTask = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonPlusOne
@@ -166,11 +168,23 @@
             this.buttonCancel.Visible = false;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
+            // labelTask
+            // 
+            this.labelTask.AutoSize = true;
+            this.labelTask.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelTask.Location = new System.Drawing.Point(18, 9);
+            this.labelTask.MaximumSize = new System.Drawing.Size(770, 0);
+            this.labelTask.Name = "labelTask";
+            this.labelTask.Size = new System.Drawing.Size(770, 126);
+            this.labelTask.TabIndex = 12;
+            this.labelTask.Text = resources.GetString("labelTask.Text");
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelTask);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.labelRandomNumber);
             this.Controls.Add(this.labelInfoRandomNumber);
@@ -204,5 +218,6 @@
         private System.Windows.Forms.Label labelInfoRandomNumber;
         private System.Windows.Forms.Label labelRandomNumber;
         private System.Windows.Forms.Button buttonCancel;
+        private System.Windows.Forms.Label labelTask;
     }
 }

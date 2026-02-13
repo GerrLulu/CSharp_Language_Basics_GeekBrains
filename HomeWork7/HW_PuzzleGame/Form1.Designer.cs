@@ -29,6 +29,7 @@ namespace HW_PuzzleGame
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.buttonStartGame = new System.Windows.Forms.Button();
             this.lableInfoPlay = new System.Windows.Forms.Label();
             this.textBoxAnswer = new System.Windows.Forms.TextBox();
@@ -36,11 +37,12 @@ namespace HW_PuzzleGame
             this.lableInfoGame = new System.Windows.Forms.Label();
             this.labelInfoCountTries = new System.Windows.Forms.Label();
             this.lableCountTries = new System.Windows.Forms.Label();
+            this.labelTask = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonStartGame
             // 
-            this.buttonStartGame.Location = new System.Drawing.Point(349, 182);
+            this.buttonStartGame.Location = new System.Drawing.Point(348, 270);
             this.buttonStartGame.Name = "buttonStartGame";
             this.buttonStartGame.Size = new System.Drawing.Size(66, 23);
             this.buttonStartGame.TabIndex = 0;
@@ -52,7 +54,7 @@ namespace HW_PuzzleGame
             // 
             this.lableInfoPlay.AutoSize = true;
             this.lableInfoPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lableInfoPlay.Location = new System.Drawing.Point(211, 248);
+            this.lableInfoPlay.Location = new System.Drawing.Point(210, 336);
             this.lableInfoPlay.Name = "lableInfoPlay";
             this.lableInfoPlay.Size = new System.Drawing.Size(355, 15);
             this.lableInfoPlay.TabIndex = 1;
@@ -60,7 +62,7 @@ namespace HW_PuzzleGame
             // 
             // textBoxAnswer
             // 
-            this.textBoxAnswer.Location = new System.Drawing.Point(163, 182);
+            this.textBoxAnswer.Location = new System.Drawing.Point(162, 270);
             this.textBoxAnswer.Name = "textBoxAnswer";
             this.textBoxAnswer.Size = new System.Drawing.Size(474, 20);
             this.textBoxAnswer.TabIndex = 2;
@@ -70,7 +72,7 @@ namespace HW_PuzzleGame
             // 
             // buttonEnter
             // 
-            this.buttonEnter.Location = new System.Drawing.Point(643, 179);
+            this.buttonEnter.Location = new System.Drawing.Point(642, 267);
             this.buttonEnter.Name = "buttonEnter";
             this.buttonEnter.Size = new System.Drawing.Size(75, 23);
             this.buttonEnter.TabIndex = 3;
@@ -82,7 +84,7 @@ namespace HW_PuzzleGame
             // lableInfoGame
             // 
             this.lableInfoGame.AutoSize = true;
-            this.lableInfoGame.Location = new System.Drawing.Point(160, 132);
+            this.lableInfoGame.Location = new System.Drawing.Point(159, 220);
             this.lableInfoGame.Name = "lableInfoGame";
             this.lableInfoGame.Size = new System.Drawing.Size(140, 13);
             this.lableInfoGame.TabIndex = 4;
@@ -92,7 +94,7 @@ namespace HW_PuzzleGame
             // labelInfoCountTries
             // 
             this.labelInfoCountTries.AutoSize = true;
-            this.labelInfoCountTries.Location = new System.Drawing.Point(160, 237);
+            this.labelInfoCountTries.Location = new System.Drawing.Point(159, 325);
             this.labelInfoCountTries.Name = "labelInfoCountTries";
             this.labelInfoCountTries.Size = new System.Drawing.Size(76, 13);
             this.labelInfoCountTries.TabIndex = 5;
@@ -102,18 +104,31 @@ namespace HW_PuzzleGame
             // lableCountTries
             // 
             this.lableCountTries.AutoSize = true;
-            this.lableCountTries.Location = new System.Drawing.Point(242, 237);
+            this.lableCountTries.Location = new System.Drawing.Point(241, 325);
             this.lableCountTries.Name = "lableCountTries";
             this.lableCountTries.Size = new System.Drawing.Size(13, 13);
             this.lableCountTries.TabIndex = 6;
             this.lableCountTries.Text = "0";
             this.lableCountTries.Visible = false;
             // 
+            // labelTask
+            // 
+            this.labelTask.AutoSize = true;
+            this.labelTask.Location = new System.Drawing.Point(9, 9);
+            this.labelTask.Margin = new System.Windows.Forms.Padding(0);
+            this.labelTask.MaximumSize = new System.Drawing.Size(770, 0);
+            this.labelTask.Name = "labelTask";
+            this.labelTask.Size = new System.Drawing.Size(767, 104);
+            this.labelTask.TabIndex = 7;
+            this.labelTask.Text = resources.GetString("labelTask.Text");
+            this.labelTask.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelTask);
             this.Controls.Add(this.lableCountTries);
             this.Controls.Add(this.labelInfoCountTries);
             this.Controls.Add(this.lableInfoGame);
@@ -137,6 +152,7 @@ namespace HW_PuzzleGame
         private System.Windows.Forms.Label lableInfoGame;
         private System.Windows.Forms.Label labelInfoCountTries;
         private System.Windows.Forms.Label lableCountTries;
+        private System.Windows.Forms.Label labelTask;
     }
 }
 
