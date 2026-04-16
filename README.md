@@ -1,4 +1,4 @@
-# CSharp-Language-Basics_GeekBrains
+# CSharp_Language_Basics_GeekBrains
 ## Home work for GeekBrains
 
 
